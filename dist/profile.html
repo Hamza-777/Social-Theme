@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Welcome To Social</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1>
+                <a href="index.html"><i class="fas fa-link"></i> Social</a>
+            </h1>
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="search" name="search" results=5 placeholder="Search for something....">
+            </div>
+        </div>
+        <div class="navbar-right">
+            <a href="createPost.html" class="btn btn-success">Create a Post</a>
+            <div class="dropdown">
+                <a href="profile.html" class="btn circle-btn profile-img dropdown-btn"><img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" alt="" class="round-img"></a>
+
+                <div class="dropdown-menu">
+                    <a href="posts.html" class="dropdown-menu-link">View Posts</a>
+                    <a href="followers.html" class="dropdown-menu-link">View Followers</a>
+                    <a href="following.html" class="dropdown-menu-link">View Following</a>
+                    <a href="profile.html" class="dropdown-menu-link">View Profile</a>
+                    <a href="index.html" class="dropdown-menu-link">Sign Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="myprofile my-3 p-2">
+            <a href="editProfile.html" class="btn circle-btn btn-dark edit-profile"><i class="fas fa-pencil-alt"></i></a>
+            <div class="myprofile-pic">
+                <a href="profile.html" class="btn circle-btn profile-img dropdown-btn"><img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" alt="" class="round-img"></a>
+                <h1 class="large">Hamza Rarani</h1>
+                <p class="lead">An aspiring full stack web developer</p>
+            </div>
+            <div class="myprofile-socials my-1">
+                <a href="#"><i class="far fa-envelope fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fas fa-globe fa-2x"></i></a>
+            </div>
+            <hr class="line">
+            <div class="myprofile-dates">
+                <p class="message-text"><span class="text-secondary">Joined on</span>: 24/10/2021</p>
+                <p class="message-text"><span class="text-secondary">Location</span>: Maharashtra, India</p>
+                <p class="message-text"><span class="text-secondary">Date of Birth</span>: 07/10/2000</p>
+            </div>
+            <hr class="line">
+            <div class="myprofile-follow-unfollow">
+                <p class="message-text"><span class="text-secondary">Followers</span>: 24</p>
+                <div class="button">
+                    <button class="btn btn-primary unfollow">Unfollow</button>
+                </div>
+            </div>
+            <hr class="line">
+            <div class="myprofile-about">
+                <h1 class="large text-secondary">About Me</h1>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere impedit ullam cumque earum reiciendis esse accusamus soluta similique maiores beatae nostrum, sit quas. Nobis odit quam aut sapiente a! Totam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio possimus consectetur officia praesentium id omnis molestias suscipit eum accusamus adipisci enim doloremque, ipsum eligendi itaque iste deleniti dolor reiciendis aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus praesentium quia repellat voluptatum similique deserunt nemo culpa non, necessitatibus voluptatem eveniet consequuntur nihil rem exercitationem labore deleniti laborum explicabo sunt.</p>
+            </div>
+        </div>
+    </section>
+    <a href="chat.html" class="btn btn-primary circle-btn chatting"><i class="fas fa-comment-dots"></i></a>
+</body>
+</html>

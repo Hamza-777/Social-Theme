@@ -1,0 +1,172 @@
+// Container
+.container {
+    max-width: $max-width;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+// Text Styles
+.x-large {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.large {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.message-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.round-btn {
+    border-radius: 0.5rem;
+}
+
+.circle-btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.line {
+    height: 1px;
+    background: #ccc;
+    margin: 1.5rem 0;
+}
+
+// Profile Image
+.profile-img {
+    width: 3rem;
+    height: 3rem;
+    padding: 0 !important;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+// Social Icons
+.fa-envelope {
+    color: $envelope;
+}
+
+.fa-twitter {
+    color: $twitter;
+}
+
+.fa-facebook {
+    color: $facebook;
+}
+
+.fa-instagram {
+    color: $instagram;
+}
+
+.fa-youtube {
+    color: $youtube;
+}
+
+.fa-linkedin {
+    color: $linkedin;
+}
+
+.fa-globe {
+    color: $globe;
+}
+
+// Backgrounds
+.bg {
+    &-primary {
+        @include set-background($primary-color);
+    }
+    &-secondary {
+        @include set-background($secondary-color);
+    }
+    &-light {
+        @include set-background($light-color);
+        border: #ccc 1px solid;
+    }
+    &-dark {
+        @include set-background($dark-color);
+    }
+    &-success {
+        @include set-background($success-color);
+    }
+    &-danger {
+        @include set-background($danger-color);
+    }
+    &-white {
+        @include set-background(#fff);
+        border: #ccc 1px solid;
+    }
+}
+
+// Buttons
+.btn {
+    display: inline-block;
+    background: $light-color;
+    color: #333;
+    padding: 0.4rem 1.3rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    outline: none;
+    transition: $default-transition;
+
+    &.btn-primary {
+        @include set-background($primary-color);
+        &:hover {
+            background: lighten($primary-color, 5%);
+        }
+    }
+    &.btn-secondary {
+        @include set-background($secondary-color);
+        &:hover {
+            background: lighten($secondary-color, 5%);
+        }
+    }
+    &.btn-dark {
+        @include set-background($dark-color);
+        &:hover {
+            background: lighten($dark-color, 5%);
+        }
+    }
+    &.btn-success {
+        @include set-background($success-color);
+        &:hover {
+            background: lighten($success-color, 5%);
+        }
+    }
+    &.btn-danger {
+        @include set-background($danger-color);
+        &:hover {
+            background: lighten($danger-color, 5%);
+        }
+    }
+    &:hover {
+        background: lighten($dark-color, 15%);
+        color: #fff;
+    }
+}

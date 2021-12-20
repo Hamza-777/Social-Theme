@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Welcome To Social</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>
+            <a href="index.html"><i class="fas fa-link"></i> Social</a>
+        </h1>
+        <form class="form" action="dashboard.html">
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="Enter Password" required>
+            </div>
+            <input type="submit" value="Sign In" class="btn btn-secondary">
+        </form>
+    </nav>
+    <section class="container">
+        <div class="landing my-3">
+            <div class="article">
+                <h1 class="large text-secondary">Welcome to Social</h1>
+                <p class="lead">
+                    Make an attractive profile and connect with a lot of people from around the world.
+                </p>
+            </div>
+            <div class="aside">
+                <p class="lead">Don't have an account? Register here.....</p>
+                <form action="dashboard.html" class="form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" placeholder="Enter Password" minLength="7">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password2" placeholder="Confirm Password" minLength="7">
+                    </div>
+                    <input type="submit" value="Sign Up" class="btn round-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

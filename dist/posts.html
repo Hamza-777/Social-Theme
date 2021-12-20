@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Welcome To Social</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1>
+                <a href="index.html"><i class="fas fa-link"></i> Social</a>
+            </h1>
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="search" name="search" placeholder="Search for something....">
+            </div>
+        </div>
+        <div class="navbar-right">
+            <a href="createPost.html" class="btn btn-success">Create a Post</a>
+            <div class="dropdown">
+                <a href="profile.html" class="btn circle-btn profile-img dropdown-btn"><img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" alt="" class="round-img"></a>
+
+                <div class="dropdown-menu">
+                    <a href="posts.html" class="dropdown-menu-link">View Posts</a>
+                    <a href="followers.html" class="dropdown-menu-link">View Followers</a>
+                    <a href="following.html" class="dropdown-menu-link">View Following</a>
+                    <a href="profile.html" class="dropdown-menu-link">View Profile</a>
+                    <a href="index.html" class="dropdown-menu-link">Sign Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="posts">
+            <h1 class="x-large text-secondary">Your posts...</h1>
+            <div class="posts-item">
+                <div>
+                    <a href="#" class="btn circle-btn profile-img"><img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" alt="" class="round-img"></a>
+                </div>
+                <div>
+                    <div class="posts-item-head">
+                        <div>
+                            <h3 class="lead">Hamza Rarani</h3>
+                            <span>9:30pm 14/11/2021</span>
+                        </div>
+                    </div>
+                    <div class="posts-item-info">
+                        <h1 class="post-title large">Hello Everyone</h1>
+                        <p class="lead post-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ratione, porro odio sequi possimus quasi provident rem itaque optio corrupti veniam eligendi dolores maxime commodi placeat ipsam architecto, perferendis delectus.</p>
+                    </div>
+                    <div class="posts-item-actions">
+                        <div class="like-dislike-comment">
+                            <div class="likes">
+                                <button class="btn circle-btn"><i class="far fa-thumbs-up"></i></button> <span class="like-count">2</span>
+                            </div>
+                            <button class="btn circle-btn"><i class="far fa-thumbs-down"></i></button>
+                            <div class="comments">
+                                <a href="comment.html"><button class="btn circle-btn"><i class="far fa-comments"></i></button></a> <span class="comments-count">2</span>
+                            </div>
+                        </div>
+                        <button class="btn circle-btn"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="posts-item">
+                <div>
+                    <a href="#" class="btn circle-btn profile-img"><img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" alt="" class="round-img"></a>
+                </div>
+                <div>
+                    <div class="posts-item-head">
+                        <div>
+                            <h3 class="lead">Hamza Rarani</h3>
+                            <span>9:30pm 14/11/2021</span>
+                        </div>
+                    </div>
+                    <div class="posts-item-info">
+                        <h1 class="post-title large">Hello Everyone</h1>
+                        <p class="lead post-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ratione, porro odio sequi possimus quasi provident rem itaque optio corrupti veniam eligendi dolores maxime commodi placeat ipsam architecto, perferendis delectus.</p>
+                    </div>
+                    <div class="posts-item-actions">
+                        <div class="like-dislike-comment">
+                            <div class="likes">
+                                <button class="btn circle-btn"><i class="far fa-thumbs-up"></i></button> <span class="like-count">2</span>
+                            </div>
+                            <button class="btn circle-btn"><i class="far fa-thumbs-down"></i></button>
+                            <div class="comments">
+                                <a href="comment.html"><button class="btn circle-btn"><i class="far fa-comments"></i></button></a> <span class="comments-count">2</span>
+                            </div>
+                        </div>
+                        <button class="btn circle-btn"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="chat.html" class="btn btn-primary circle-btn chatting"><i class="fas fa-comment-dots"></i></a>
+</body>
+</html>
