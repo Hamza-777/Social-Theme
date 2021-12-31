@@ -151,8 +151,11 @@ img {
             position: relative;
             display: inline-block;
 
-            &-menu {
+            .set-visibility {
                 display: none;
+            }
+
+            &-menu {
                 background: $dark-color;
                 position: absolute;
                 left: -6rem;
