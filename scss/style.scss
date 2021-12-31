@@ -384,9 +384,21 @@ img {
         align-items: center;
         justify-content: space-between;
 
+        .more-info {
+            a {
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+
         button {
             height: 3rem;
             border-radius: 10% 10% 10% 10% / 53% 53% 47% 47%;
+
+            &:hover {
+                color: $secondary-color;
+            }
         }
 
         .follow {

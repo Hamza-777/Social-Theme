@@ -999,9 +999,17 @@ img {
           justify-content: space-between;
 }
 
+.myprofile-follow-unfollow .more-info a:hover {
+  color: #00A19D;
+}
+
 .myprofile-follow-unfollow button {
   height: 3rem;
   border-radius: 10% 10% 10% 10% / 53% 53% 47% 47%;
+}
+
+.myprofile-follow-unfollow button:hover {
+  color: #00A19D;
 }
 
 .myprofile-follow-unfollow .follow:hover {
