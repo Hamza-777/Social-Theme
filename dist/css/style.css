@@ -934,6 +934,27 @@ img {
   position: relative;
 }
 
+.myprofile .delete-profile {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.myprofile .delete-profile:hover {
+  color: #dc3545;
+}
+
 .myprofile .edit-profile {
   position: absolute;
   top: 1rem;

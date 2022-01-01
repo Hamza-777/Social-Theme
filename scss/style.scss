@@ -341,6 +341,20 @@ img {
     border: 2px solid $dark-color;
     position: relative;
 
+    .delete-profile {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: $default-transition;
+
+        &:hover {
+            color: $danger-color;
+        }
+    }
+
     .edit-profile {
         position: absolute;
         top: 1rem;
