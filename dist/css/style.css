@@ -1062,6 +1062,31 @@ img {
   text-align-last: center;
 }
 
+.profile-editor {
+  position: relative;
+}
+
+.profile-editor .back-to-profile {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.profile-editor .back-to-profile:hover {
+  color: #dc3545;
+}
+
 .profile-editor .btn:hover {
   color: #00A19D;
 }

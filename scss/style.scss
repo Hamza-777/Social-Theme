@@ -448,6 +448,21 @@ img {
 
 // Profile Editor
 .profile-editor {
+    position: relative;
+
+    .back-to-profile {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: $default-transition;
+
+        &:hover {
+            color: $danger-color;
+        }
+    }
 
     .btn {
         &:hover {
