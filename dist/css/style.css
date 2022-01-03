@@ -815,6 +815,18 @@ img {
   margin: 3rem 0;
 }
 
+.posts-item-left {
+  -webkit-box-flex: 5%;
+      -ms-flex: 5%;
+          flex: 5%;
+}
+
+.posts-item-right {
+  -webkit-box-flex: 95%;
+      -ms-flex: 95%;
+          flex: 95%;
+}
+
 .posts-item .profile-img {
   width: 3rem;
   height: 3rem;
